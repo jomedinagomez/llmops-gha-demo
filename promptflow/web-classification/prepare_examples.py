@@ -9,9 +9,7 @@ def prepare_examples():
             "text_content": "Spotify is a free music and podcast streaming app with millions of songs, albums, and "
             "original podcasts. It also offers audiobooks, so users can enjoy thousands of stories. "
             "It has a variety of features such as creating and sharing music playlists, discovering "
-            "new music, and listening to popular and exclusive podcasts. It also has a Premium "
-            "subscription option which allows users to download and listen offline, and access "
-            "ad-free music. It is available on all devices and has a variety of genres and artists "
+            "new music, and listening to popular and exclusive podcasts."
             "to choose from.",
             "category": "App",
             "evidence": "Both",
