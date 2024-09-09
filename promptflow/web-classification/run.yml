@@ -6,9 +6,9 @@ data: data.jsonl
 runtime: automatic
 
 connections:
-  classify_with_llm:
+  grade:
     connection: AzureOpenAIEast
     deployment_name: gpt4o
-  summarize_text_content:
+  calculate_accuracy:
     connection: AzureOpenAIEast
     deployment_name: gpt4o

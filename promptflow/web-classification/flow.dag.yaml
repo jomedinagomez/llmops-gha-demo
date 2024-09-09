@@ -23,11 +23,11 @@ nodes:
     type: code
     path: summarize_text_content.jinja2
   inputs:
-    deployment_name: gpt-4o
+    deployment_name: gpt4o
     max_tokens: 1000
     temperature: 0.2
     text: ${fetch_text_content_from_url.output}
-  connection: aistudiodemows6203929072_aoai
+  connection: AzureOpenAIEast
   api: chat
 - name: prepare_examples
   type: python
@@ -41,7 +41,7 @@ nodes:
     type: code
     path: classify_with_llm.jinja2
   inputs:
-    deployment_name: gpt-4o
+    deployment_name: gpt4o
     max_tokens: 128
     temperature: 0.2
     url: ${inputs.url}
@@ -49,7 +49,7 @@ nodes:
     examples: ${prepare_examples.output}
     response_format:
       type: text
-  connection: aistudiodemows6203929072_aoai
+  connection: AzureOpenAIEast
   api: chat
 - name: convert_to_dict
   type: python
