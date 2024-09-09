@@ -11,8 +11,8 @@ runtime: automatic
 
 connections:
   classify_with_llm:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: aistudiodemows6203929072_aoai
+    deployment_name: gpt-4o
   summarize_text_content:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: aistudiodemows6203929072_aoai
+    deployment_name: gpt-4o
