@@ -8,11 +8,3 @@ column_mapping:
 
 # define cloud resource
 runtime: automatic
-
-connections:
-  grade:
-    connection: AzureOpenAIEast
-    deployment_name: gpt4o
-  calculate_accuracy:
-    connection: AzureOpenAIEast
-    deployment_name: gpt4o
